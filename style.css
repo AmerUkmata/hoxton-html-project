@@ -100,4 +100,60 @@ header {
   /* MAIN */
   .main-page{
       background-color: #575757;
+      text-align: center;
+      height: 552px;
+  }
+  .main-page h1,h3{
+      color: #f9f9f9;
+  }
+  .buttons-menu{
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+  }
+  .button-1 img{
+    box-shadow: 3px 3px 3px 3px black;
+    width: 300px;
+
+    animation: jiggle 3s ;
+  }
+  .button-2 img{
+    box-shadow: 3px 3px 3px 3px black;
+    width: 300px;
+
+    animation: jiggle 3s ;
+  }
+
+  @keyframes jiggle {
+    0% {
+      width: 5px;
+    }
+
+    20% {
+      transform: rotate(-20deg);
+    }
+  
+    30% {
+      transform: rotate(20deg);
+    }
+  
+    40% {
+      transform: rotate(-10deg);
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    60% {
+      transform: rotate(-5deg);
+    }
+  
+    70% {
+      transform: rotate(5deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
   }
