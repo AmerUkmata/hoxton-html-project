@@ -98,6 +98,48 @@ header {
     font-size: 25px;
   }
   /* MAIN */
-  .main-page{
-    background-color: #575757;
-}
+  .main-menu {
+    grid-area: main-menu;
+    border-top: 1px solid #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .main-menu img{
+      width: 248px;
+      height: 310px;
+      box-shadow: 1px 1px 1px 1px gray;
+  }
+  .meme-1 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-2 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-3 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-4 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-5 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-6 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-7 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
+  .meme-8 {
+    background-color: #fff;
+    border: 2px solid black;
+  }
