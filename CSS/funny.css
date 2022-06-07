@@ -100,7 +100,7 @@ header {
   /* MAIN */
   .main-menu {
     grid-area: main-menu;
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid gray;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 1rem;
