@@ -91,29 +91,42 @@
     gap: 1rem;
     padding: 1rem;
   }
+  .main-menu img{
+      width: 248px;
+      height: 310px;
+      box-shadow: 1px 1px 1px 1px gray;
+  }
   .meme-1 {
-    background-color: aqua;
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-2 {
-    background-color: rgb(255, 81, 0);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-3 {
-    background-color: rgb(81, 255, 0);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-4 {
-    background-color: rgb(255, 153, 0);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-5 {
-    background-color: rgb(255, 0, 0);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-6 {
-    background-color: rgb(25, 0, 255);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-7 {
-    background-color: rgb(195, 0, 255);
+    background-color: #fff;
+    border: 2px solid black;
   }
   .meme-8 {
-    background-color: rgb(255, 0, 119);
+    background-color: #fff;
+    border: 2px solid black;
   }
   
   
