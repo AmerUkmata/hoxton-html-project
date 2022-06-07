@@ -7,20 +7,20 @@
     height: 100vh;
     display: grid;
     grid-template:
-      "left-menu  main-menu" 1fr /
+      'left-menu  main-menu' 1fr /
       300px 1fr;
   }
-/* LEFT MENU */
-.left-menu {
+  /* LEFT MENU */
+  .left-menu {
     grid-area: left-menu;
     display: grid;
     grid-template:
-      "left-menu__first__row" 150px
-      "left-menu__second__row" 100px
-      "left-menu__third__row" 150px
-      "left-menu__fourth__row" 1fr;
+      'left-menu__first__row' 150px
+      'left-menu__second__row' 100px
+      'left-menu__third__row' 150px
+      'left-menu__fourth__row' 1fr;
   }
-  .left-menu a{
+  .left-menu a {
     text-decoration: solid;
     color: black;
   }
@@ -29,10 +29,10 @@
     display: grid;
     border-bottom: 1px solid grey;
   }
-  .left-menu__first__row img{
-     width: 60px;
-     padding-top: 10px;
-     padding-left: 17px;
+  .left-menu__first__row img {
+    width: 60px;
+    padding-top: 10px;
+    padding-left: 17px;
   }
   .left-menu__first__row__home {
     display: grid;
@@ -87,48 +87,33 @@
     grid-area: main-menu;
     border-top: 1px solid #f0f0f0;
     display: grid;
-    grid-template:
-      "meme-1   meme-2   meme-3   meme-4" auto
-      "meme-5   meme-6   meme-7   meme-8" 1fr /
-       300px    1fr      1fr      300px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
   }
-  .meme-1{
-      grid-area: meme-1;
-      background-color: aqua;
-      width: 100px;
-  }
-  .meme-2{
-    grid-area: meme-2;
+  .meme-1 {
     background-color: aqua;
-      width: 100px;
   }
-  .meme-3{
-    grid-area: meme-3;
-    background-color: aqua;
-      width: 100px;
+  .meme-2 {
+    background-color: rgb(255, 81, 0);
   }
-  .meme-4{
-    grid-area: meme-4;
-    background-color: aqua;
-      width: 100px;
+  .meme-3 {
+    background-color: rgb(81, 255, 0);
   }
-  .meme-5{
-    grid-area: meme-5;
-    background-color: aqua;
-      width: 100px;
+  .meme-4 {
+    background-color: rgb(255, 153, 0);
   }
-  .meme-6{
-    grid-area: meme-6;
-    background-color: aqua;
-      width: 100px;
+  .meme-5 {
+    background-color: rgb(255, 0, 0);
   }
-  .meme-7{
-    grid-area: meme-7;
-    background-color: aqua;
-      width: 100px;
+  .meme-6 {
+    background-color: rgb(25, 0, 255);
   }
-  .meme-8{
-    grid-area: meme-8;
-    background-color: aqua;
-      width: 100px;
+  .meme-7 {
+    background-color: rgb(195, 0, 255);
   }
+  .meme-8 {
+    background-color: rgb(255, 0, 119);
+  }
+  
+  
